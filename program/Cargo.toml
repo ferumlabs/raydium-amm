@@ -15,11 +15,11 @@ program = ["serum_dex/program", "serum_dex/no-entrypoint"]
 default = ["program"]
 client = ["serum_dex/client"]
 test = []
-devnet = []
-localnet = []
+#devnet = []
+#localnet = []
 
 [dependencies]
-solana-program = "<1.17.0"
+solana-program = ">=1.18.0,<2"
 spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
 spl-associated-token-account = { version = "2.2.0", features = ["no-entrypoint"]}
 serum_dex = { version = "0.5.10", git = "https://github.com/raydium-io/openbook-dex", features=["no-entrypoint", "program"] }

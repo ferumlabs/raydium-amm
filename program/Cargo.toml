@@ -15,8 +15,8 @@ program = ["serum_dex/program", "serum_dex/no-entrypoint"]
 default = ["program"]
 client = ["serum_dex/client"]
 test = []
-#devnet = []
-#localnet = []
+devnet = []
+localnet = []
 
 [dependencies]
 solana-program = ">=1.18.0,<2"

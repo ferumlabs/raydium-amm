@@ -60,7 +60,7 @@ pub mod msrm_token {
 #[cfg(feature = "localnet")]
 pub mod config_feature {
     pub mod amm_owner {
-        solana_program::declare_id!("75KWb5XcqPTgacQyNw9P5QU2HL3xpezEVcgsFCiJgTT");
+        solana_program::declare_id!("3NBj1TQcK8RgdT7zj3yiJbCJyYz897BY7Fc5ct9RsYEg");
     }
     pub mod openbook_program {
         solana_program::declare_id!("kGeitTdTHT1WdpUScdm8yxUAirZwbnQtqrpzvAm1p98");
